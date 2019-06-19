@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Restroom Feedback</string>
+    <string name="fb">Give Your Feedback        </string>
+    <string name="fb_inst">Help us to improve by providing your valuable feedback !</string>
+    <string name="thankyou">Thanks for your valuable Feedback</string>
+    <string name="question">Reason for poor feedback</string>
+    <string name="submit">Submit</string>
+    <string name="image">image</string>
+    <string-array name="fb_types">
+        <item>Excellent</item>
+        <item>Good</item>
+        <item>Average</item>
+        <item>Poor</item>
+        <item>Very Poor</item>
+    </string-array>
+</resources>

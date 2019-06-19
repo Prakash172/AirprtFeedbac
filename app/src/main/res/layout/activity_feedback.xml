@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_fb"
+    android:orientation="horizontal"
+    tools:context=".Activity.FeedbackActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".7"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".15"
+            android:src="@mipmap/feedback_screen_logo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/question_block"
+            android:contentDescription="@string/image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/main_fb_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="5"
+                android:paddingLeft="30dp"
+                android:scrollbars="none"
+                android:horizontalSpacing="10dp"
+                android:paddingRight="30dp"
+                android:listSelector="#00000000" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
